@@ -6,6 +6,7 @@ Fork Repo Steps-By-Steps
 3.  Once the repo is already in your local, reconfigure Database Connection 
     a. (Source Packages > database > DBConnection.java)
     b. (Web Pages > img > image.jsp)
+    c. (Web Pages > img > image_1.jsp)
     P/S: please reconfigure the username and password accordance to your tomcat configuration
 4.  Now you are good to go !
 

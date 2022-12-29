@@ -18,7 +18,7 @@
 
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/votingsystem", "root", "admin");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/votingsystem", "root", "");
         stmt = con.createStatement();
         rs = stmt.executeQuery("select pollItemImage from pollitems where pollItemId =" +id);
         if (rs.next()) {

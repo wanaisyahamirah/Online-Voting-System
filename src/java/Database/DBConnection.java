@@ -13,7 +13,7 @@ public class DBConnection implements java.io.Serializable {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/votingsystem";
             
-            con = DriverManager.getConnection(url, "root", "admin");
+            con = DriverManager.getConnection(url, "root", "");
         } catch (ClassNotFoundException | SQLException e){
             e.getMessage();
         }

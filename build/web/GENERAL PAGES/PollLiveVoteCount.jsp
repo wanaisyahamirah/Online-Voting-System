@@ -12,7 +12,7 @@
 <html>
     <head>
         <title>Live Vote Count</title>
-        <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     </head>
     <%
         int pollid = Integer.parseInt(request.getParameter("pollid"));

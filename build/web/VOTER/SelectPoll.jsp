@@ -20,7 +20,7 @@
 <html>
     <head>
         <title>Poll Vote Selection</title>
-        <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     </head>
     <%
         User user = (User) request.getSession().getAttribute("vmuser");

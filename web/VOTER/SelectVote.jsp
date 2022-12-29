@@ -23,7 +23,7 @@
 <html>
     <head>
         <title>Vote Selection</title>
-        <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     </head>
     <%
         int eventid = Integer.parseInt(request.getParameter("id"));
